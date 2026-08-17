@@ -22,7 +22,7 @@ switch ($op) {
         }
         break;
     default:
-        $result = "Erro: Operador invalido. Use +, -, * (multiplicacao) ou / (divisao).";
+        $result = "Erro: Operador invalido. Use +, -, x ou / .";
         break;
 }
 ?>
