@@ -7,8 +7,11 @@ Este repositório foi criado para armazenar e organizar todos os exercícios pr�
 Abaixo está a lista dos exercícios disponíveis neste repositório. Cada atividade está separada em sua própria pasta:
 
 * **[Exercício 01: Calculadora Básica](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/Calculadora)** 
-  * *Descrição:* Uma calculadora simples que realiza as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão) recebendo os dados do usuário via formulário HTML (`$_GET`).
-
+  * Uma calculadora simples que realiza as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão) recebendo os dados do usuário via formulário HTML (`$_GET`).
+ 
+* **[Exercício 02: Cadastro de Aluno em TXT](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/IncluirAluno)** 
+  * Um sistema simples composto por um formulário HTML que recebe os dados de um aluno (Nome, Matrícula e Curso) via método `POST` e utiliza PHP para gravar e armazenar essas informações de forma   permanente em um arquivo de texto (`alunos.txt`).
+    
 *(Novos exercícios serão listados aqui conforme forem solicitados pelo professor).*
 
 ---
