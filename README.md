@@ -9,7 +9,7 @@ Abaixo está a lista dos exercícios disponíveis neste repositório. Cada ativi
 * **[Exercício 01: Calculadora Básica](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/Calculadora)** 
   * Uma calculadora simples que realiza as quatro operações matemáticas básicas (adição, subtração, multiplicação e divisão) recebendo os dados do usuário via formulário HTML (`$_GET`).
  
-* **[Exercício 02: Cadastro de Aluno em TXT](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/IncluirAluno)** 
+* **[Exercício 02: Cadastro de Aluno em TXT](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/ArquivoAluno)** 
   * Um sistema simples composto por um formulário HTML que recebe os dados de um aluno (Nome, Matrícula e Curso) via método `POST` e utiliza PHP para gravar e armazenar essas informações de forma   permanente em um arquivo de texto (`alunos.txt`).
     
 *(Novos exercícios serão listados aqui conforme forem solicitados pelo professor).*
