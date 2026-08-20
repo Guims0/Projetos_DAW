@@ -1,0 +1,3 @@
+nome;matricula;curso
+Guilherme Martins;123456789;Analise e Desenvolvimento de Sistemas
+
