@@ -1,0 +1,2 @@
+nome;sigla;carga
+Interface Homem-Maquina;1IHM;80
