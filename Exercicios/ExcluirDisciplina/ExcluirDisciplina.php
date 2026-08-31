@@ -219,6 +219,7 @@ Gerenciar disciplinas · PHP
     <?php } ?>
 <?php } ?>
  
+
 <p><?php echo $msg ?></p>
 <br>
 </body>
