@@ -14,6 +14,9 @@ Abaixo está a lista dos exercícios disponíveis neste repositório. Cada ativi
 
 * **[Exercício 03: Excluir Disciplina](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/ExcluirDisciplina)** 
   * Um sistema em PHP unificado que permite gerenciar disciplinas, realizando operações de incluir, listar, alterar e excluir registros diretamente em um arquivo de texto (`disciplinas.txt`).
+
+* **[Exercício 04: Listar Alunos](https://github.com/Guims0/Projetos_DAW/tree/main/Exercicios/ListarAlunos)** 
+  * Um sistema em PHP que lista os alunos em uma tabela com Matrícula, Nome, Email e ações de alterar/excluir, permitindo incluir, alterar e excluir registros em um arquivo de texto (`alunos.txt`).
     
 *(Novos exercícios serão listados aqui conforme forem solicitados pelo professor).*
 
