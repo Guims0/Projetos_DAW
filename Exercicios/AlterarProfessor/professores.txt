@@ -1,2 +1,3 @@
 matricula;nome;cpf;endereco
-172839;Andre neves;123456789;Faeterj-Rio Quintino
+172839;Andre neves;888999;Faeterj-Rio Quintino
+17589;joao;445555;Faeterj-Rio faetec

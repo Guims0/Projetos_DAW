@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+
+    a: <input type="text" id="a"> <br><br>
+    operadores (+ , - , * , / ): <input type="text" id="op"><br><br>
+    b: <input type="text" id="b"><br><br>
+    <button onclick="calcular()">Enviar</button>
+
+    <h2 id="resultado"></h2>
+
+    <script>
+        function calcular() {
+            var a = document.getElementById("a").value;
+            var op = document.getElementById("op").value;
+            var b = document.getElementById("b").value;
+
+            fetch("exCalculadora.php?a=" + encodeURIComponent(a) +
+                  "&op=" + encodeURIComponent(op) +
+                  "&b=" + encodeURIComponent(b))
+                .then(function (resposta) {
+                    return resposta.json();
+                })
+                .then(function (dados) {
+                    document.getElementById("resultado").innerText = "Resultado: " + dados.resultado;
+                });
+        }
+    </script>
+</body>
+</html>
