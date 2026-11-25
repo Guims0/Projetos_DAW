@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro de Disciplina</title>
+</head>
+<body>
+  <h1>Incluir Disciplina</h1>
+  Sigla: <input type="text" id="sigla"><br><br>
+  Nome: <input type="text" id="nome"><br><br>
+  Carga Horária: <input type="number" id="cargaHoraria"><br><br>
+  <button onclick="incluir()">Salvar</button>
+  <p id="mensagem"></p>
+
+  <script>
+    function incluir() {
+      var sigla = document.getElementById("sigla").value;
+      var nome = document.getElementById("nome").value;
+      var cargaHoraria = document.getElementById("cargaHoraria").value;
+
+      fetch("incluirDisciplina.php?sigla=" + sigla + "&nome=" + nome + "&cargaHoraria=" + cargaHoraria)
+      .then(function (resposta) {
+        return resposta.json();
+      })
+      .then(function (resultado) {
+        if (resultado == true) {
+          document.getElementById("mensagem").innerHTML = "Disciplina inserida com sucesso!";
+        } else {
+          document.getElementById("mensagem").innerHTML = "Erro ao inserir a disciplina";
+        }
+      });
+    }
+  </script>
+</body>
+</html>
